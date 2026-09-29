@@ -1,0 +1,271 @@
+# =========================================================
+# IntelliJ IDEA / JetBrains
+# =========================================================
+
+# IntelliJ project files
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea
+
+# IntelliJ local files
+/shelf/
+/workspace.xml
+
+# IntelliJ HTTP Client
+/httpRequests/
+
+# IntelliJ query files
+/queries/
+
+# IntelliJ Datasource files
+/dataSources/
+/dataSources.local.xml
+
+# IntelliJ UI designer
+
+
+# =========================================================
+# Eclipse / Spring Tool Suite
+# =========================================================
+
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+
+# =========================================================
+# Visual Studio Code
+# =========================================================
+
+.vscode/
+
+
+# =========================================================
+# NetBeans
+# =========================================================
+
+/nbproject/private/
+/nbproject/var/
+/nbproject/build-impl.xml
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+
+# =========================================================
+# Java
+# =========================================================
+
+*.class
+*.log
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+
+# =========================================================
+# Maven
+# =========================================================
+
+target/
+
+# Maven wrapper generated timing information
+.mvn/timing.properties
+
+# Do NOT ignore:
+# .mvn/wrapper/maven-wrapper.properties
+# .mvn/wrapper/maven-wrapper.jar
+
+
+# =========================================================
+# Gradle
+# =========================================================
+
+.gradle/
+build/
+
+# Keep Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+
+# =========================================================
+# Spring Boot
+# =========================================================
+
+# Local application configuration
+src/main/resources/application.properties
+src/main/resources/application.yml
+src\main\resources\application.properties
+
+# Environment-specific Spring configuration
+src/main/resources/application-*.properties
+src/main/resources/application-*.yml
+
+# Keep example configuration files
+!src/main/resources/application.properties.example
+!src/main/resources/application.yml.example
+
+
+# =========================================================
+# Environment Variables / Secrets
+# =========================================================
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local secret/config files
+secrets/
+*.secret
+*.key
+
+
+# =========================================================
+# Database / Local Database Files
+# =========================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+*.mv.db
+
+# Local database folders
+/database/
+/db-data/
+
+
+# =========================================================
+# Logs
+# =========================================================
+
+logs/
+*.out
+
+
+# =========================================================
+# Build / Generated Files
+# =========================================================
+
+generated/
+generated-sources/
+generated-test-sources/
+
+# Temporary build directories
+tmp/
+temp/
+
+
+# =========================================================
+# Test / Coverage
+# =========================================================
+
+coverage/
+*.coverage
+jacoco/
+*.exec
+
+
+# =========================================================
+# Operating System Files
+# =========================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# =========================================================
+# Temporary / Backup Files
+# =========================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+
+
+# =========================================================
+# Docker
+# =========================================================
+
+# Local Docker overrides
+docker-compose.override.yml
+
+# Docker environment files
+docker/.env
+docker-compose.env
+
+
+# =========================================================
+# Node.js (if frontend is included in this project)
+# =========================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend build output
+dist/
+.angular/
+.next/
+.nuxt/
+
+
+# =========================================================
+# Firebase / Google Services
+# =========================================================
+
+# Only ignore these if they contain private project credentials
+google-services.json
+GoogleService-Info.plist
+
+
+# =========================================================
+# Certificates / SSL
+# =========================================================
+
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+
+# =========================================================
+# Local Configuration
+# =========================================================
+
+*.local
+*.local.properties
+
+# Android local configuration if Android is ever added
+local.properties
+
+
+# =========================================================
+# OS / IDE Miscellaneous
+# =========================================================
